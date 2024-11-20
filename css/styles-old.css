@@ -1,5 +1,5 @@
 
-
+/* 
 address{
     font-style: normal;
 }
@@ -9,7 +9,7 @@ address{
  }
 
 /* стилі хедера */
-.header-nav{
+/* .header-nav{
   display: flex; 
   align-items: center;
 }
@@ -40,8 +40,8 @@ address{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-}
-.site-item{
+} */
+/* .site-item{
     padding: 24px 0;
 }
 .site-link {
@@ -108,7 +108,7 @@ address{
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
-}
+} */ 
 
 /* Стилі першої секції */
 
