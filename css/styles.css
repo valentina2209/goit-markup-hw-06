@@ -315,6 +315,11 @@ img {
     color: #434455; 
     font-style: normal;
 }
+
+.contacts-link-menu{
+    color: inherit;
+}
+
 .contacts-link-menu:hover,
 .contacts-link-menu:focus{
     color: #404bbf;
