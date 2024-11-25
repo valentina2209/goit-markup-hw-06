@@ -724,20 +724,23 @@ img {
     .portfolio-list .portfolio-item {
         width:calc((100% - 48px) / 2);
      } 
-     .portfolio-item {
-        margin-bottom: 72px;
+    .portfolio-item {
+        margin-bottom: 36px;
       }
       
-      .portfolio-item:nth-last-child(-n + 2) {
+    .portfolio-item:nth-last-child(-n + 2) {
         margin-bottom: 0;
       }
 }
 
 @media screen and (min-width: 1158px) {
-     .portfolio-list .portfolio-item {
+     
+    .portfolio-item{
+        margin-bottom: 24px;
+    }
+    .portfolio-list .portfolio-item {
         width:calc((100% - 72px) / 3);
-
-     } 
+    } 
     
     .portfolio-thumb{
         position: relative;
