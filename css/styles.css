@@ -30,9 +30,9 @@ ul,ol {
   margin: 0;
   padding: 0;
 }
- button{
+button{
     cursor: pointer;
- }
+}
 .visibility-hidden{
     position: absolute;
     width: 1px;
@@ -41,10 +41,9 @@ ul,ol {
     border: 0;
     padding: 0;
     white-space: nowrap;
-    clip-path: inset(100%) ;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-
 }
 img {
   display: block;
@@ -116,7 +115,6 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-
 .burger-btn{
     padding: 0;
     border: none;
@@ -221,6 +219,7 @@ img {
         }
          
 }
+
 /* Mobile menu */
 
 .mobile-menu{
@@ -462,12 +461,15 @@ img {
 }
 /* Стилі другої секції */
 
+.basik{
+    margin: 0 auto;
+    padding: 96px 0;
+}
 .basik-list{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px;
-    padding: 96px 0;
 }
 .basik-item{
     display: flex; 
@@ -475,15 +477,13 @@ img {
     justify-content: center; 
     flex-direction: column;
     gap: 8px;
-   
 }  
 .basik-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    
+    color: #2e2f42;  
 }
 .basik-text{
     font-weight: 500;
@@ -551,6 +551,11 @@ img {
 }
  /* Стилі третьої секції */
 
+ .work{
+    background: #F4F4FD;
+    margin: 0 auto;
+    padding: 96px 0;
+}
 .title{
     font-weight: 700;
     font-size: 36px;
@@ -559,12 +564,6 @@ img {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 56px;
-}
-.work{
-    background: #F4F4FD;
-    margin: 0 auto;
-    padding: 96px 0;
-
 }
 .work-list{
     display: flex;
@@ -668,7 +667,10 @@ img {
     display: none;
    }
 }
-
+.portfolio{
+    margin: 0 auto;
+    padding: 96px 0;
+}
 .portfolio-title{
     font-weight: 700;
     font-size: 36px;
@@ -676,7 +678,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 96px;
     margin-bottom: 72px;
 
 }
@@ -685,7 +686,6 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 48px; 
-    padding-bottom: 96px;
 }
 
  .portfolio-item{  
@@ -695,8 +695,7 @@ img {
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-   
- }
+}
 
 .portfolio-caption{
     font-weight: 500;
@@ -1069,7 +1068,7 @@ img {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
- .modal-overlay.is-open{
+.modal-overlay.is-open{
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
