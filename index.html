@@ -44,7 +44,8 @@
                         </li>
                     </ul>
                 </address>
-                <button class="burger-btn" type="button">
+
+                <button class="burger-btn" type="button" data-menu-open>
                     <svg class="burger-icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
                     </svg>
@@ -52,9 +53,9 @@
                 </button>
 
             </div>
-            <div class="mobile-menu">
+            <div class="mobile-menu is-open" data-menu>
                 <div class="container mobile-menu-container">
-                    <button class="mobile-menu-close" type="button">
+                    <button class="mobile-menu-close" type="button" data-menu-close>
                         <svg class="mobile-icon-close" width="8" height="8">
                             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                         </svg>
@@ -123,7 +124,7 @@
             <section class="hero">
                 <div class="container">
                     <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                    <button  class="button" type="button">Order Service</button>
+                    <button  class="button" type="button" data-modal-open>Order Service</button>
                 </div>
             </section> 
 <!-- Стилі другої секції -->
@@ -477,9 +478,9 @@
             </div>
         </footer>
 
-        <div class="modal-overlay">
+        <div class="modal-overlay" data-modal>
             <div class="modal">
-                <button class="modal-close" type="button">
+                <button class="modal-close" type="button" data-modal-close>
                     <svg class="icon-close" width="8" height="8">
                         <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                     </svg>
@@ -534,6 +535,7 @@
                 </form>
             </div>
         </div>    
-        
+        <script src="./js/menu.js"></script>
+        <script src="./js/modal.js"></script>
     </body>
 </html> 
